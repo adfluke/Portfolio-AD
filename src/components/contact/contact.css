@@ -1,0 +1,104 @@
+.contact-form{
+  padding: 0 3rem 0 3rem;
+  display:flex;
+  height: 60vh;
+  margin-top: 5rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.c-right{
+  bottom: 100px;
+  right: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+
+.c-right>form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.c-right .user{
+  width: 30rem;
+  height: 60px;
+  padding: 10px;
+  outline: none;
+  border: 2px solid var(--orange);
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+textarea{
+  height: 10rem!important;
+}
+
+.c-blurl{
+  top: 1rem;
+  left: 8rem;
+}
+.contact-text{
+  position: absolute;
+  left: 30rem;
+
+}
+
+.contact-text {
+  background-color: var(--color-sec-light);
+  padding: 15px 25px;
+  font-size: 15px;
+  border-radius: 50px;
+  transition: 0.1s ease;
+  position: absolute;
+}
+
+.button{
+  height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease;
+    overflow: hidden;
+    border: 2px solid var(--orange);
+    background: none;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.a-left-a {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+.a-card-a {
+  width: 40%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.a-img-a {
+  width: 95%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 40px;
+  background: rgb(5, 7, 37) url(../props/AD.png);
+}
+.a-card-a.bg {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  background-color: rgb(170, 169, 212);
+  width: 40%;
+  height: 50vh;
+  border-radius: 30px;
+}
